@@ -15,7 +15,7 @@ function App() {
       </div>
       
       <div className="cuerpo">
-        <img src="Dario_Turin_cv1.jpg" className="imagen" alt='imagen-perfil'/>
+        <img src="./Dario_Turin_cv1.jpg" className="imagen" alt='imagen-perfil'/>
         <h1>Este es mi primer componente</h1>
         <h2>El valor de number es: {number}</h2>
         <button onClick={() => setNumber(number + 1)}>Incrementar</button>
