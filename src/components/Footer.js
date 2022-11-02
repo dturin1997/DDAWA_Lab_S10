@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-        <footer>
-            <p>© 2022 Tecsup - Alumnos inc</p>
+        <footer className="footer">
+            <p>© 2022 Tecsup - Darío Turín</p>
         </footer>
     );
 };

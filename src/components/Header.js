@@ -1,6 +1,7 @@
+import "../style.css"
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <nav>
         <ul>
           <li>
@@ -8,6 +9,9 @@ const Header = () => {
           </li>
           <li>
             <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/portfolio">Portfolio</a>
           </li>
         </ul>
       </nav>
